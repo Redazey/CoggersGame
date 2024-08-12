@@ -1,0 +1,1 @@
+buttons = [BtnStart, BtnSettings, BtnExit]
