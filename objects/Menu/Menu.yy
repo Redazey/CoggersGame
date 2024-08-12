@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MainMenu",
-    "path": "folders/Objects/MainMenu.yy",
+    "name": "btnsMainMenu",
+    "path": "folders/Objects/btnsMainMenu.yy",
   },
 }
