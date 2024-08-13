@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "BtnExit",
   "spriteId": {
-    "name": "ExitBtn",
-    "path": "sprites/ExitBtn/ExitBtn.yy",
+    "name": "sprtExit",
+    "path": "sprites/sprtExit/sprtExit.yy",
   },
   "solid": false,
   "visible": true,

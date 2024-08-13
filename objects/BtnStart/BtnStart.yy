@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "BtnStart",
   "spriteId": {
-    "name": "StartBtn",
-    "path": "sprites/StartBtn/StartBtn.yy",
+    "name": "sprtStart",
+    "path": "sprites/sprtStart/sprtStart.yy",
   },
   "solid": false,
   "visible": true,

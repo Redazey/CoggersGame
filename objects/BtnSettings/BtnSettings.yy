@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "BtnSettings",
   "spriteId": {
-    "name": "SettingsBtn",
-    "path": "sprites/SettingsBtn/SettingsBtn.yy",
+    "name": "sprtSettings",
+    "path": "sprites/sprtSettings/sprtSettings.yy",
   },
   "solid": false,
   "visible": true,

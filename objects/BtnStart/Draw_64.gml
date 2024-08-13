@@ -4,7 +4,7 @@ if instance_position(gui_mouse_x, gui_mouse_y, self)
 {
 	scrOutlinedText(
 		x - 10, y, 
-		c_white, c_black, 
+		c_white, 
 		">", 
 		depth, PixyRussianF1, fa_left, fa_middle
 	)
@@ -12,7 +12,7 @@ if instance_position(gui_mouse_x, gui_mouse_y, self)
 
 scrOutlinedText(
 	x, y, 
-	c_white, c_black, 
+	c_white,
 	"Start", 
 	depth, PixyRussianF1, fa_left, fa_middle
 )
