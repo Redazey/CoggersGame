@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"fnt_pixy_dialogs","order":2,"path":"fonts/fnt_pixy_dialogs/fnt_pixy_dialogs.yy",},
+    {"name":"fnt_pixy_f2","order":1,"path":"fonts/fnt_pixy_f2/fnt_pixy_f2.yy",},
+    {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
+    {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"rm_settings","order":3,"path":"rooms/rm_settings/rm_settings.yy",},
+    {"name":"scr_outlined_text","order":1,"path":"scripts/scr_outlined_text/scr_outlined_text.yy",},
+    {"name":"scr_sound_btn_switch","order":2,"path":"scripts/scr_sound_btn_switch/scr_sound_btn_switch.yy",},
+    {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
+    {"name":"spr_checkbox_checked","order":1,"path":"sprites/spr_checkbox_checked/spr_checkbox_checked.yy",},
+    {"name":"spr_empty","order":1,"path":"sprites/spr_empty/spr_empty.yy",},
+    {"name":"spr_hina_lmove","order":5,"path":"sprites/spr_hina_lmove/spr_hina_lmove.yy",},
+    {"name":"spr_hina_ridle","order":4,"path":"sprites/spr_hina_ridle/spr_hina_ridle.yy",},
+    {"name":"spr_hina_rmove","order":3,"path":"sprites/spr_hina_rmove/spr_hina_rmove.yy",},
+    {"name":"spr_settings","order":1,"path":"sprites/spr_settings/spr_settings.yy",},
+    {"name":"spr_sounbox_checked","order":2,"path":"sprites/spr_sounbox_checked/spr_sounbox_checked.yy",},
+    {"name":"spr_soundbox","order":3,"path":"sprites/spr_soundbox/spr_soundbox.yy",},
+    {"name":"spr_start","order":2,"path":"sprites/spr_start/spr_start.yy",},
+  ],
+}
