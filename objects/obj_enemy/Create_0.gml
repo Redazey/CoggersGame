@@ -1,1 +1,1 @@
-speed_enemy = 1.5
+const_speed = 5

@@ -1,8 +1,9 @@
-var target_x = obj_character.x; 
-var target_y = obj_character.y; 
-//phy_position_x += sign(obj_character.x - x) * speed_enemy
-//phy_position_y += sign(obj_character.y - y) * speed_enemy
- 
-move_towards_point(target_x, target_y, speed_enemy);
-//x = lerp(x, target_x, speed_enemy); 
-//y = lerp(y, target_y, speed_enemy);
+var _target_x = obj_character.x 
+var _target_y = obj_character.y
+var _current_speed = const_speed * global.t
+
+if place_meeting(x, y, obj_character) {
+	obj_character.const_speed = 0	
+} else {
+	move_towards_point(_target_x, _target_y, _current_speed)
+}
