@@ -1,0 +1,1 @@
+speed_enemy = 1.5

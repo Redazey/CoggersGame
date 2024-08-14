@@ -20,4 +20,3 @@ if (x - _last_x) < 0 {
 } else {
 	sprite_index=spr_hina_rmove
 }
-

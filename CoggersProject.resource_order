@@ -1,8 +1,12 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"enemy","order":2,"path":"folders/Sprites/enemy.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"fnt_pixy_dialogs","order":2,"path":"fonts/fnt_pixy_dialogs/fnt_pixy_dialogs.yy",},
     {"name":"fnt_pixy_f2","order":1,"path":"fonts/fnt_pixy_f2/fnt_pixy_f2.yy",},
+    {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_parent","order":2,"path":"objects/obj_parent/obj_parent.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_settings","order":3,"path":"rooms/rm_settings/rm_settings.yy",},
