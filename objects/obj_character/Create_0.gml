@@ -1,1 +1,1 @@
-const_speed = 5
+const_speed = 8

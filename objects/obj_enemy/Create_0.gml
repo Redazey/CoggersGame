@@ -1,1 +1,2 @@
-const_speed = 5
+const_speed = 3
+melee_range = 200

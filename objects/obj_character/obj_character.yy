@@ -13,8 +13,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_parent",
-    "path":"objects/obj_parent/obj_parent.yy",
+    "name":"obj_entity",
+    "path":"objects/obj_entity/obj_entity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hina_ridle",
-    "path":"sprites/spr_hina_ridle/spr_hina_ridle.yy",
+    "name":"spr_test_ridle",
+    "path":"sprites/spr_test_ridle/spr_test_ridle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
