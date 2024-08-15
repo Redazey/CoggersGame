@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"weapon","order":5,"path":"folders/Objects/weapon.yy",},
     {"name":"enemy","order":2,"path":"folders/Sprites/enemy.yy",},
+    {"name":"weapon","order":3,"path":"folders/Sprites/weapon.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_pixy_dialogs","order":2,"path":"fonts/fnt_pixy_dialogs/fnt_pixy_dialogs.yy",},
@@ -9,14 +11,17 @@
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_entity","order":2,"path":"objects/obj_entity/obj_entity.yy",},
     {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Object24","order":1,"path":"objects/Object24/Object24.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_settings","order":3,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"scr_outlined_text","order":1,"path":"scripts/scr_outlined_text/scr_outlined_text.yy",},
     {"name":"scr_sound_btn_switch","order":2,"path":"scripts/scr_sound_btn_switch/scr_sound_btn_switch.yy",},
     {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
+    {"name":"spr_bullet","order":3,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_checkbox_checked","order":1,"path":"sprites/spr_checkbox_checked/spr_checkbox_checked.yy",},
     {"name":"spr_empty","order":1,"path":"sprites/spr_empty/spr_empty.yy",},
+    {"name":"spr_gun","order":2,"path":"sprites/spr_gun/spr_gun.yy",},
     {"name":"spr_main_lidle","order":6,"path":"sprites/spr_main_lidle/spr_main_lidle.yy",},
     {"name":"spr_main_lmove","order":5,"path":"sprites/spr_main_lmove/spr_main_lmove.yy",},
     {"name":"spr_main_ridle","order":4,"path":"sprites/spr_main_ridle/spr_main_ridle.yy",},
@@ -27,5 +32,6 @@
     {"name":"spr_start","order":2,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_test_ridle","order":2,"path":"sprites/spr_test_ridle/spr_test_ridle.yy",},
     {"name":"spr_test_rmove","order":1,"path":"sprites/spr_test_rmove/spr_test_rmove.yy",},
+    {"name":"Sprite19","order":1,"path":"sprites/Sprite19/Sprite19.yy",},
   ],
 }

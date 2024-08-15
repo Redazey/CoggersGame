@@ -38,5 +38,13 @@ var _current_speed = const_speed * global.t
 	if _x_spd == 0 && _y_spd == 0 && sprite_index == spr_main_lmove {
 		sprite_index=spr_main_lidle
 	}
-	
+
+
+var imx = sign(mouse_x-x)
+if imx = 0 { imx = 1 } 
+rotate = imx
+
+mouse = point_direction(x, y-6, mouse_x, mouse_y)
+
+
 	
