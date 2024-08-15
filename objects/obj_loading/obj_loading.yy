@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"loadingScreen",
-    "path":"folders/Objects/loadingScreen.yy",
+    "path":"folders/Objects/screens/loadingScreen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

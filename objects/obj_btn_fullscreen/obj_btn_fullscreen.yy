@@ -12,9 +12,12 @@
   "overriddenProperties":[],
   "parent":{
     "name":"fullscreen",
-    "path":"folders/Objects/settings/fullscreen.yy",
+    "path":"folders/Objects/screens/settings/fullscreen.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

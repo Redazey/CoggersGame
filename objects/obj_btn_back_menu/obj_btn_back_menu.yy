@@ -11,10 +11,13 @@
   "name":"obj_btn_back_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"settings",
-    "path":"folders/Objects/settings.yy",
+    "name":"screens",
+    "path":"folders/Objects/screens.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

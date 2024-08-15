@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"sound",
-    "path":"folders/Objects/settings/sound.yy",
+    "path":"folders/Objects/screens/settings/sound.yy",
   },
   "parentObjectId":null,
   "persistent":false,

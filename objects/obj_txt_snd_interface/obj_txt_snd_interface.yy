@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"soundInterface",
-    "path":"folders/Objects/settings/soundInterface.yy",
+    "path":"folders/Objects/screens/settings/soundInterface.yy",
   },
   "parentObjectId":null,
   "persistent":false,

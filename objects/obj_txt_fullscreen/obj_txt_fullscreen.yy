@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"fullscreen",
-    "path":"folders/Objects/settings/fullscreen.yy",
+    "path":"folders/Objects/screens/settings/fullscreen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

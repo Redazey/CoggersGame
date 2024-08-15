@@ -1,7 +1,6 @@
 draw_self()
 
-if instance_position(gui_mouse_x, gui_mouse_y, self)
-{
+if instance_position(gui_mouse_x, gui_mouse_y, self) {
 	scr_outlined_text(
 		x - 10, y, 
 		c_white, 

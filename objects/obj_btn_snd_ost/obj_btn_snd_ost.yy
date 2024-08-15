@@ -12,9 +12,12 @@
   "overriddenProperties":[],
   "parent":{
     "name":"soundOST",
-    "path":"folders/Objects/settings/soundOST.yy",
+    "path":"folders/Objects/screens/settings/soundOST.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

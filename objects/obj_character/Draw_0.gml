@@ -1,6 +1,8 @@
 draw_self()
 
 draw_sprite_ext(spr_gun, 1, x, y-6, 1, rotate, mouse,c_white, 1)
+
+if global.t != 0 {
 if mouse_check_button_pressed(mb_left) && reload <= 0
 {
 	repeat(6)
@@ -16,3 +18,4 @@ if mouse_check_button_pressed(mb_left) && reload <= 0
 	reload = 60
 }
 reload--
+}
