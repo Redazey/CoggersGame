@@ -7,7 +7,3 @@ if (point_distance(x, y, _target_x, _target_y) > melee_range) {
 } else _current_speed = 0
 
 move_towards_point(_target_x, _target_y, _current_speed)
-
-if place_meeting(x, y, obj_bullet){
-instance_destroy()
-}

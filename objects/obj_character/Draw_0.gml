@@ -8,9 +8,9 @@ if mouse_check_button_pressed(mb_left) && reload <= 0
 		
 		with( instance_create_depth(x + lengthdir_x(-11,mouse), y-6 + lengthdir_y(6,mouse), 9, obj_bullet))
 		{
-			direction = other.mouse+random_range(-6,6)
+			direction = other.mouse
 			image_angle = direction
-			speed = 20+random_range(-3,3)
+			speed = 100
 		}
 	}
 	reload = 60
