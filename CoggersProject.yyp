@@ -19,6 +19,8 @@
     {"$GMFolder":"","%Name":"Included Files","folderPath":"folders/Included Files.yy","name":"Included Files","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"entity","folderPath":"folders/Objects/entity.yy","name":"entity","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"walls","folderPath":"folders/Objects/walls.yy","name":"walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"loadingScreen","folderPath":"folders/Objects/loadingScreen.yy","name":"loadingScreen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"mainMenu","folderPath":"folders/Objects/mainMenu.yy","name":"mainMenu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"settings","folderPath":"folders/Objects/settings.yy","name":"settings","resourceType":"GMFolder","resourceVersion":"2.0",},

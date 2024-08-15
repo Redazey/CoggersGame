@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"entity","order":6,"path":"folders/Objects/entity.yy",},
+    {"name":"walls","order":7,"path":"folders/Objects/walls.yy",},
     {"name":"weapon","order":5,"path":"folders/Objects/weapon.yy",},
     {"name":"enemy","order":2,"path":"folders/Sprites/enemy.yy",},
     {"name":"weapon","order":3,"path":"folders/Sprites/weapon.yy",},
@@ -10,7 +12,6 @@
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_entity","order":2,"path":"objects/obj_entity/obj_entity.yy",},
-    {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"Object24","order":1,"path":"objects/Object24/Object24.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},

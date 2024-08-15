@@ -10,8 +10,8 @@
   "name":"obj_entity",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"entity",
+    "path":"folders/Objects/entity.yy",
   },
   "parentObjectId":null,
   "persistent":false,
