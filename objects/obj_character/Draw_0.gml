@@ -1,3 +1,4 @@
+draw_self()
 
 draw_sprite_ext(spr_gun, 1, x, y-6, 1, rotate, mouse,c_white, 1)
 if mouse_check_button_pressed(mb_left) && reload <= 0
