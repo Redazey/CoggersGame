@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_ridle",
-    "path":"sprites/spr_test_ridle/spr_test_ridle.yy",
+    "name":"spr_main_ridle",
+    "path":"sprites/spr_main_ridle/spr_main_ridle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

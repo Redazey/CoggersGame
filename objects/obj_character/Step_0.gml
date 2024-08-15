@@ -23,10 +23,20 @@ var _current_speed = const_speed * global.t
 		scr_move(_x_spd, _y_spd, _current_speed)
 	}
 
+	// Горизонтальные спрайты
 	if _x_spd < 0 {
-		sprite_index=spr_test_lmove		
-	} else if _x_spd == 0 && _y_spd == 0 {
-		sprite_index=spr_test_ridle
-	} else {
-		sprite_index=spr_test_rmove
+		sprite_index=spr_main_lmove
 	}
+	if _x_spd > 0 {
+		sprite_index=spr_main_rmove
+	}
+	
+	// Стоим на месте
+	if _x_spd == 0 && _y_spd == 0 && sprite_index == spr_main_rmove {
+		sprite_index=spr_main_ridle
+	}
+	if _x_spd == 0 && _y_spd == 0 && sprite_index == spr_main_lmove {
+		sprite_index=spr_main_lidle
+	}
+	
+	

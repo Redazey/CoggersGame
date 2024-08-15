@@ -42,7 +42,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"spr_main_lidle.xcf","CopyToMask":-1,"filePath":"datafiles","name":"spr_main_lidle.xcf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -89,6 +91,10 @@
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},},
+    {"id":{"name":"spr_main_lidle","path":"sprites/spr_main_lidle/spr_main_lidle.yy",},},
+    {"id":{"name":"spr_main_lmove","path":"sprites/spr_main_lmove/spr_main_lmove.yy",},},
+    {"id":{"name":"spr_main_ridle","path":"sprites/spr_main_ridle/spr_main_ridle.yy",},},
+    {"id":{"name":"spr_main_rmove","path":"sprites/spr_main_rmove/spr_main_rmove.yy",},},
     {"id":{"name":"spr_settings","path":"sprites/spr_settings/spr_settings.yy",},},
     {"id":{"name":"spr_sounbox_checked","path":"sprites/spr_sounbox_checked/spr_sounbox_checked.yy",},},
     {"id":{"name":"spr_soundbox","path":"sprites/spr_soundbox/spr_soundbox.yy",},},
