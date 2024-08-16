@@ -132,6 +132,7 @@
     {"id":{"name":"spr_test_lmove","path":"sprites/spr_test_lmove/spr_test_lmove.yy",},},
     {"id":{"name":"spr_test_ridle","path":"sprites/spr_test_ridle/spr_test_ridle.yy",},},
     {"id":{"name":"spr_test_rmove","path":"sprites/spr_test_rmove/spr_test_rmove.yy",},},
+    {"id":{"name":"spr_weapon_","path":"sprites/spr_weapon_/spr_weapon_.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
   ],

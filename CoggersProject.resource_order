@@ -59,6 +59,7 @@
     {"name":"spr_start","order":2,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_test_ridle","order":2,"path":"sprites/spr_test_ridle/spr_test_ridle.yy",},
     {"name":"spr_test_rmove","order":1,"path":"sprites/spr_test_rmove/spr_test_rmove.yy",},
+    {"name":"spr_weapon_","order":4,"path":"sprites/spr_weapon_/spr_weapon_.yy",},
     {"name":"Sprite19","order":1,"path":"sprites/Sprite19/Sprite19.yy",},
   ],
 }
