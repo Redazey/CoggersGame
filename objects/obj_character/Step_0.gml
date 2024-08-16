@@ -24,25 +24,23 @@ var _current_speed = const_speed * global.t
 	}
 
 	// Горизонтальные спрайты
-	if _x_spd < 0 {
-		sprite_index=spr_main_lmove
-	}
-	if _x_spd > 0 {
+	if _x_spd != 0 {
 		sprite_index=spr_main_rmove
 	}
 	
 	// Стоим на месте
-	if _x_spd == 0 && _y_spd == 0 && sprite_index == spr_main_rmove {
+	if _x_spd == 0 && _y_spd == 0 {
 		sprite_index=spr_main_ridle
 	}
-	if _x_spd == 0 && _y_spd == 0 && sprite_index == spr_main_lmove {
-		sprite_index=spr_main_lidle
-	}
+
+	
 #endregion
 
 var _imx = sign(mouse_x-x)
-if _imx = 0 { _imx = 1 } 
-rotate = _imx
+image_xscale = _imx
+if _imx  = 0 { _imx  = 1 } 
+rotate = _imx 
+
 
 mouse = point_direction(x, y-6, mouse_x, mouse_y)
 }
