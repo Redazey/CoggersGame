@@ -1,4 +1,6 @@
-gui_mouse_x = device_mouse_x_to_gui(0)
-gui_mouse_y = device_mouse_y_to_gui(0)
+/// @description Insert description here
+// You can write your code in this editor
 
-scr_sound_btn_switch(gui_mouse_x, gui_mouse_y, EffectsSounds)
+// Inherit the parent event
+event_inherited();
+
