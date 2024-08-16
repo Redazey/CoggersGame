@@ -42,7 +42,6 @@
     {"name":"scr_outlined_text","order":1,"path":"scripts/scr_outlined_text/scr_outlined_text.yy",},
     {"name":"scr_sound_btn_switch","order":2,"path":"scripts/scr_sound_btn_switch/scr_sound_btn_switch.yy",},
     {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
-    {"name":"spr_bullet","order":3,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_checkbox_checked","order":1,"path":"sprites/spr_checkbox_checked/spr_checkbox_checked.yy",},
     {"name":"spr_empty","order":1,"path":"sprites/spr_empty/spr_empty.yy",},
     {"name":"spr_gun","order":2,"path":"sprites/spr_gun/spr_gun.yy",},
@@ -60,5 +59,6 @@
     {"name":"spr_tech_door","order":6,"path":"sprites/spr_tech_door/spr_tech_door.yy",},
     {"name":"spr_test_ridle","order":2,"path":"sprites/spr_test_ridle/spr_test_ridle.yy",},
     {"name":"spr_test_rmove","order":1,"path":"sprites/spr_test_rmove/spr_test_rmove.yy",},
+    {"name":"spr_weapon_","order":4,"path":"sprites/spr_weapon_/spr_weapon_.yy",},
   ],
 }

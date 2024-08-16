@@ -1,21 +1,25 @@
 draw_self()
 
-draw_sprite_ext(spr_gun, 1, x, y-6, 1, rotate, mouse,c_white, 1)
+draw_sprite_ext(spr_weapon_, 1, x, y+8, 1, rotate, mouse,c_white, 1)
 
 if global.t != 0 {
 if mouse_check_button_pressed(mb_left) && reload <= 0
 {
-	repeat(6)
+	repeat(100)
 	{
 		
-		with( instance_create_depth(x + lengthdir_x(-11,mouse), y-6 + lengthdir_y(6,mouse), 9, obj_bullet))
+		with( instance_create_depth(x + lengthdir_x(-25,mouse), y+8+ lengthdir_y(-25,mouse), 9, obj_bullet))
 		{
-			direction = other.mouse
+			direction = other.mouse+random_range(-60, 60)
 			image_angle = direction
-			speed = 100
+			speed = 50 -random_range(-30, 30)
 		}
 	}
-	reload = 60
+	
+	reload = 10
 }
+
 reload--
 }
+
+ 
