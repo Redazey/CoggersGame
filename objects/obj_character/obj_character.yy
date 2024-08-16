@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_main_ridle",
-    "path":"sprites/spr_main_ridle/spr_main_ridle.yy",
+    "name":"spr_main_idle",
+    "path":"sprites/spr_main_idle/spr_main_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

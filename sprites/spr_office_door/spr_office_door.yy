@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_office_door",
   "bboxMode":2,
-  "bbox_bottom":75,
+  "bbox_bottom":46,
   "bbox_left":0,
-  "bbox_right":66,
+  "bbox_right":49,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2bdba84-7817-4c92-b3d6-7ae51bc87b0c","name":"c2bdba84-7817-4c92-b3d6-7ae51bc87b0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4dd36c6e-822b-427e-874c-b9b0904521b9","name":"4dd36c6e-822b-427e-874c-b9b0904521b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":142,
+  "height":110,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"89f3c0ce-2541-4d8c-9fab-3ea326455bec","blendMode":0,"displayName":"default","isLocked":false,"name":"89f3c0ce-2541-4d8c-9fab-3ea326455bec","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"03c6c904-d349-4e2b-8c09-886c6e722086","blendMode":0,"displayName":"default","isLocked":false,"name":"03c6c904-d349-4e2b-8c09-886c6e722086","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_office_door",
   "nineSlice":null,
@@ -59,7 +59,7 @@
     },
     "name":"spr_office_door",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2bdba84-7817-4c92-b3d6-7ae51bc87b0c","path":"sprites/spr_office_door/spr_office_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"11dbb870-7d27-4ff6-9823-d9ae7093be70","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dd36c6e-822b-427e-874c-b9b0904521b9","path":"sprites/spr_office_door/spr_office_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"530dc196-8e3a-427e-9281-40890b29091c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":67,
+  "width":50,
 }

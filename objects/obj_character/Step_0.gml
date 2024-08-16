@@ -25,12 +25,12 @@ var _current_speed = const_speed * global.t
 
 	// Горизонтальные спрайты
 	if _x_spd != 0 {
-		sprite_index=spr_main_rmove
+		sprite_index=spr_main_move
 	}
 	
 	// Стоим на месте
 	if _x_spd == 0 && _y_spd == 0 {
-		sprite_index=spr_main_ridle
+		sprite_index=spr_main_idle
 	}
 
 	
