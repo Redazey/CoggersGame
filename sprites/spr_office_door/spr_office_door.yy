@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_office_door",
   "bboxMode":2,
-  "bbox_bottom":46,
+  "bbox_bottom":44,
   "bbox_left":0,
   "bbox_right":49,
   "bbox_top":0,

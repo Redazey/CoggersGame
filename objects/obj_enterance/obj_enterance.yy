@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_btn_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_enterance",
+  "eventList":[],
   "managed":true,
-  "name":"obj_btn_parent",
+  "name":"obj_enterance",
   "overriddenProperties":[],
   "parent":{
-    "name":"screens",
-    "path":"folders/Objects/screens.yy",
+    "name":"walls",
+    "path":"folders/Objects/walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enterance",
+    "path":"sprites/spr_enterance/spr_enterance.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

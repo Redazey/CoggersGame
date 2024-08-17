@@ -2,13 +2,14 @@
   "$GMObject":"",
   "%Name":"obj_tech_door",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":51,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_tech_door",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"sprite","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"spr_tech_door_open","path":"sprites/spr_tech_door_open/spr_tech_door_open.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tech_door_open",},
+  ],
   "parent":{
     "name":"office",
     "path":"folders/Objects/walls/office.yy",
