@@ -38,7 +38,7 @@ var _current_speed = const_speed * global.t
 
 			// Смотрим назад
 		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
-			sprite_index = spr_main_back_idle
+			sprite_index = spr_main_up
 
 			// Смотрим вбок
 		} else {
@@ -56,7 +56,7 @@ var _current_speed = const_speed * global.t
 			
 			// Смотрим назад
 		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
-			sprite_index = spr_main_back_idle
+			sprite_index = spr_main_up_idle
 		
 			// Смотрим вбок
 		} else {
