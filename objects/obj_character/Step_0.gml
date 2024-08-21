@@ -8,7 +8,7 @@ var _x_spd = _key_right - _key_left
 var _y_spd = _key_down - _key_up
 var _current_speed = const_speed * global.t
 
-#region Движение персонажа
+#region Движение и коллизия
 	// Проверяем, не столкнулись ли мы со стеной
 	if place_meeting(x + _x_spd * _current_speed, y, obj_wall) {
 		_x_spd = 0
@@ -22,27 +22,54 @@ var _current_speed = const_speed * global.t
 	if _movement_input {
 		scr_move(_x_spd, _y_spd, _current_speed)
 	}
-
-	// Горизонтальные спрайты
-	if _x_spd != 0 {
-		sprite_index=spr_main_move
-	}
-	
-	// Стоим на месте
-	if _x_spd == 0 && _y_spd == 0 {
-		sprite_index=spr_main_idle
-	}
-
-	
 #endregion
 
-var _imx = sign(mouse_x-x)
-image_xscale = _imx
-if _imx  = 0 { _imx  = 1 } 
-rotate = _imx 
+#region Анимация
+    // Вычисляем положение мышки относительно персонажа
+	var _imy = sign(mouse_y-y)
+	var _imx = sign(mouse_x-x)
+	
+	// Двигаемся
+	if _x_spd != 0 or _y_spd != 0 {
+		
+		// Смотрим вперед
+		if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
+			sprite_index = spr_main_front_move
 
+			// Смотрим назад
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
+			sprite_index = spr_main_back_idle
 
-mouse = point_direction(x, y-6, mouse_x, mouse_y)
+			// Смотрим вбок
+		} else {
+			sprite_index=spr_main_move
+		}
+	
+		// Остановка / Стоим на месте
+	} else if _x_spd == 0 && _y_spd == 0 {
+		// Смотрим вперед
+		if sprite_index == spr_main_move || sprite_index == spr_main_stop {
+			sprite_index = spr_main_stop
+		
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
+			sprite_index = spr_main_front_idle
+			
+			// Смотрим назад
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
+			sprite_index = spr_main_back_idle
+		
+			// Смотрим вбок
+		} else {
+			sprite_index=spr_main_idle
+		}
+	} 
+	
+	if _imx == 0 _imx = 1
+	image_xscale = _imx
+	rotate = _imx 
+
+	mouse = point_direction(x, y-6, mouse_x, mouse_y)
+#endregion
 }
 
 
