@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"entity","order":6,"path":"folders/Objects/entity.yy",},
     {"name":"camera","order":9,"path":"folders/Objects/camera.yy",},
+    {"name":"entity","order":6,"path":"folders/Objects/entity.yy",},
     {"name":"screens","order":8,"path":"folders/Objects/screens.yy",},
     {"name":"mainMenu","order":1,"path":"folders/Objects/screens/mainMenu.yy",},
     {"name":"pauseMenu","order":2,"path":"folders/Objects/screens/pauseMenu.yy",},
@@ -37,6 +37,7 @@
     {"name":"obj_office_door","order":2,"path":"objects/obj_office_door/obj_office_door.yy",},
     {"name":"obj_office_horizontal","order":4,"path":"objects/obj_office_horizontal/obj_office_horizontal.yy",},
     {"name":"obj_office_vertical","order":3,"path":"objects/obj_office_vertical/obj_office_vertical.yy",},
+    {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"obj_tech_door","order":5,"path":"objects/obj_tech_door/obj_tech_door.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"Object24","order":1,"path":"objects/Object24/Object24.yy",},

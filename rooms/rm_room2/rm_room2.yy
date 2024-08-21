@@ -35,6 +35,7 @@
     {"name":"inst_69444A13","path":"rooms/rm_room2/rm_room2.yy",},
     {"name":"inst_13A9B290","path":"rooms/rm_room2/rm_room2.yy",},
     {"name":"inst_1257F4","path":"rooms/rm_room2/rm_room2.yy",},
+    {"name":"inst_1AA6D88D","path":"rooms/rm_room2/rm_room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -71,6 +72,7 @@
         {"$GMRInstance":"v1","%Name":"inst_69444A13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69444A13","objectId":{"name":"obj_office_vertical","path":"objects/obj_office_vertical/obj_office_vertical.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":240.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_13A9B290","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13A9B290","objectId":{"name":"obj_office_vertical","path":"objects/obj_office_vertical/obj_office_vertical.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":240.0,"y":96.0,},
         {"$GMRInstance":"v1","%Name":"inst_1257F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1257F4","objectId":{"name":"obj_office_vertical","path":"objects/obj_office_vertical/obj_office_vertical.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":240.0,"y":192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1AA6D88D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1AA6D88D","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -97,7 +99,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":1920,"hport":1080,"hspeed":4,"hview":320,"inherit":false,"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"vborder":1080,"visible":true,"vspeed":4,"wport":1920,"wview":640,"xport":0,"xview":211,"yport":0,"yview":44,},
+    {"hborder":1920,"hport":720,"hspeed":4,"hview":360,"inherit":false,"objectId":null,"vborder":1080,"visible":true,"vspeed":4,"wport":1280,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
