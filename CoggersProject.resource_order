@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"entity","order":6,"path":"folders/Objects/entity.yy",},
+    {"name":"camera","order":9,"path":"folders/Objects/camera.yy",},
     {"name":"screens","order":8,"path":"folders/Objects/screens.yy",},
     {"name":"mainMenu","order":1,"path":"folders/Objects/screens/mainMenu.yy",},
     {"name":"pauseMenu","order":2,"path":"folders/Objects/screens/pauseMenu.yy",},
@@ -25,9 +26,11 @@
     {"name":"obj_btn_back_main","order":2,"path":"objects/obj_btn_back_main/obj_btn_back_main.yy",},
     {"name":"obj_btn_back_menu","order":4,"path":"objects/obj_btn_back_menu/obj_btn_back_menu.yy",},
     {"name":"obj_btn_parent","order":5,"path":"objects/obj_btn_parent/obj_btn_parent.yy",},
+    {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_data_carrier","order":3,"path":"objects/obj_data_carrier/obj_data_carrier.yy",},
     {"name":"obj_door","order":2,"path":"objects/obj_door/obj_door.yy",},
+    {"name":"obj_door2","order":4,"path":"objects/obj_door2/obj_door2.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_enterance","order":3,"path":"objects/obj_enterance/obj_enterance.yy",},
     {"name":"obj_entity","order":2,"path":"objects/obj_entity/obj_entity.yy",},
@@ -69,5 +72,6 @@
     {"name":"spr_test_ridle","order":1,"path":"sprites/spr_test_ridle/spr_test_ridle.yy",},
     {"name":"spr_test_rmove","order":2,"path":"sprites/spr_test_rmove/spr_test_rmove.yy",},
     {"name":"spr_weapon_","order":4,"path":"sprites/spr_weapon_/spr_weapon_.yy",},
+    {"name":"Sprite35","order":5,"path":"sprites/Sprite35/Sprite35.yy",},
   ],
 }
