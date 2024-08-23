@@ -10,10 +10,14 @@ var _current_speed = const_speed * global.t
 
 #region Движение и коллизия
 	// Проверяем, не столкнулись ли мы со стеной
-	if place_meeting(x + _x_spd * _current_speed, y, obj_wall) {
+	var _x_formula = x + _current_speed * _x_spd
+	var _y_formula = y + _current_speed * _y_spd
+	var _tilemap = obj_controller.col_tilemap
+	
+	if place_meeting(_x_formula, y, _tilemap) {
 		_x_spd = 0
 	}
-	if place_meeting(x, y + _y_spd * _current_speed, obj_wall) {
+	if place_meeting(x, _y_formula, _tilemap) {
 		_y_spd = 0
 	}
 
@@ -71,6 +75,3 @@ var _current_speed = const_speed * global.t
 	mouse = point_direction(x, y-6, mouse_x, mouse_y)
 #endregion
 }
-
-
-	

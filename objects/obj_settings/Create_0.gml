@@ -14,8 +14,8 @@ elems = [
 	obj_txt_snd_interface
 ]
 
-var _win_x = window_get_width()
-var _win_y = window_get_height()
+var _win_x = global.cam_width * global.scale
+var _win_y = global.cam_height * global.scale
 
 var _y_align = 40
 var _menu_height = (array_length(elems) * (_y_align) + array_length(elems) * (_y_align)) / 2

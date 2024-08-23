@@ -1,8 +1,8 @@
 // global.t используем в формулах расчета текущего мувспида
 global.t=1-global.pause
 
-var _win_x = window_get_width()
-var _win_y = window_get_height()
+var _win_x = global.cam_width * global.scale
+var _win_y = global.cam_height * global.scale
 
 // Все, что связанно с паузой
 if global.pause == 1 && array_length(global.layers) == 0 {
