@@ -19,7 +19,7 @@
           1,0,-3,1,-23,-2147483648,-3,1,1,0,-32,-2147483648,1,1,-29,-2147483648,1,1,-32,-2147483648,1,1,-29,-2147483648,
           1,1,-32,-2147483648,1,1,-29,-2147483648,1,1,-32,-2147483648,1,1,-29,-2147483648,1,1,-32,-2147483648,
           1,1,-29,-2147483648,1,1,-32,-2147483648,1,1,-29,-2147483648,1,1,-33,-2147483648,-29,1,1,0,-2983,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"collision_tile","path":"tilesets/collision_tile/collision_tile.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_functional_tiles","path":"tilesets/ts_functional_tiles/ts_functional_tiles.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"walls_front","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"walls_front","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":63,"SerialiseWidth":63,"TileCompressedData":[
           -2,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,
           -53,0,-10,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,-53,0,-10,-2147483648,

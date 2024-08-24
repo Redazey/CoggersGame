@@ -47,9 +47,9 @@
     {"name":"scr_unpause","order":3,"path":"scripts/scr_unpause/scr_unpause.yy",},
     {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
     {"name":"spr_checkbox_checked","order":1,"path":"sprites/spr_checkbox_checked/spr_checkbox_checked.yy",},
-    {"name":"spr_collision_block","order":2,"path":"sprites/spr_collision_block/spr_collision_block.yy",},
     {"name":"spr_empty","order":1,"path":"sprites/spr_empty/spr_empty.yy",},
     {"name":"spr_enterance","order":1,"path":"sprites/spr_enterance/spr_enterance.yy",},
+    {"name":"spr_fuinctional_tiles","order":2,"path":"sprites/spr_fuinctional_tiles/spr_fuinctional_tiles.yy",},
     {"name":"spr_gun","order":2,"path":"sprites/spr_gun/spr_gun.yy",},
     {"name":"spr_main_front_idle","order":1,"path":"sprites/spr_main_front_idle/spr_main_front_idle.yy",},
     {"name":"spr_main_front_move","order":3,"path":"sprites/spr_main_front_move/spr_main_front_move.yy",},
@@ -69,6 +69,6 @@
     {"name":"spr_test_rmove","order":2,"path":"sprites/spr_test_rmove/spr_test_rmove.yy",},
     {"name":"spr_weapon_","order":4,"path":"sprites/spr_weapon_/spr_weapon_.yy",},
     {"name":"Sprite35","order":5,"path":"sprites/Sprite35/Sprite35.yy",},
-    {"name":"collision_tile","order":1,"path":"tilesets/collision_tile/collision_tile.yy",},
+    {"name":"ts_functional_tiles","order":1,"path":"tilesets/ts_functional_tiles/ts_functional_tiles.yy",},
   ],
 }

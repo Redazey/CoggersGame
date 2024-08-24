@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"",
-  "%Name":"collision_tile",
+  "%Name":"ts_functional_tiles",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"collision_tile",
-  "out_columns":1,
+  "name":"ts_functional_tiles",
+  "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_collision_block",
-    "path":"sprites/spr_collision_block/spr_collision_block.yy",
+    "name":"spr_fuinctional_tiles",
+    "path":"sprites/spr_fuinctional_tiles/spr_fuinctional_tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -27,7 +27,7 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,1,],
+    "FrameData":[0,1,2,3,],
     "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
@@ -38,5 +38,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":2,
+  "tile_count":4,
 }
