@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_office_door",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"sprite","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"spr_tech_door_open","path":"sprites/spr_tech_door_open/spr_tech_door_open.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tech_door_open",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"sprite","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"spr_office_door_open","path":"sprites/spr_office_door_open/spr_office_door_open.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_office_door_open",},
   ],
   "parent":{
     "name":"office",
