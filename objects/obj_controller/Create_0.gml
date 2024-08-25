@@ -19,3 +19,4 @@ y_to = y
 global.non_game_rooms = [rm_loading, rm_menu, rm_settings]
 
 // блоки колизии
+col_tilemap = noone

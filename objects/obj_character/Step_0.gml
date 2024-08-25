@@ -28,7 +28,8 @@ var _current_speed = const_speed * global.t
 	}
 #endregion
 
-#region Анимация
+if !holding_gun {
+#region Анимация без пушки в руке
     // Вычисляем положение мышки относительно персонажа
 	var _imy = sign(mouse_y-y)
 	var _imx = sign(mouse_x-x)
@@ -38,33 +39,46 @@ var _current_speed = const_speed * global.t
 		
 		// Смотрим вперед
 		if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
-			sprite_index = spr_main_front_move
+			// проигрываем звук ходьбы
+			if image_index == 1 || image_index == 3 {
+				audio_play_sound(sndStep, 1, false)
+			}
+			
+			sprite_index = sMainFrontMove
 
 			// Смотрим назад
 		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
-			sprite_index = spr_main_up
+			// проигрываем звук ходьбы
+			if image_index == 1 || image_index == 3 {
+				audio_play_sound(sndStep, 1, false)
+			}
+			sprite_index = sMainUp
 
 			// Смотрим вбок
 		} else {
-			sprite_index=spr_main_move
+			// проигрываем звук ходьбы
+			if image_index == 4 || image_index == 9 {
+				audio_play_sound(sndStep, 1, false)
+			}
+			sprite_index=sMainMove
 		}
 	
 		// Остановка / Стоим на месте
 	} else if _x_spd == 0 && _y_spd == 0 {
 		// Смотрим вперед
-		if sprite_index == spr_main_move || sprite_index == spr_main_stop {
-			sprite_index = spr_main_stop
+		if (sprite_index == sMainMove || sprite_index == sMainStop) and need_to_stop {
+			sprite_index = sMainStop
 		
 		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
-			sprite_index = spr_main_front_idle
+			sprite_index = sMainFrontIdle
 			
 			// Смотрим назад
 		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
-			sprite_index = spr_main_up_idle
+			sprite_index = sMainUpIdle
 		
 			// Смотрим вбок
 		} else {
-			sprite_index=spr_main_idle
+			sprite_index=sMainIdle
 		}
 	} 
 	
@@ -74,4 +88,80 @@ var _current_speed = const_speed * global.t
 
 	mouse = point_direction(x, y-6, mouse_x, mouse_y)
 #endregion
+} else {
+#region Анимация c пушкой в руке
+    // Вычисляем положение мышки относительно персонажа
+	var _imy = sign(mouse_y-y)
+	var _imx = sign(mouse_x-x)
+	
+	// Двигаемся
+	if _x_spd != 0 or _y_spd != 0 {
+		
+		// Смотрим вперед
+		if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
+			// проигрываем звук ходьбы
+			if (int64(image_index) == 0 or int64(image_index) == 2) 
+			and !step_played {
+				audio_play_sound(sndStep, 1, false)
+				step_played = true
+			} else if int64(image_index) != 0 and int64(image_index) != 2 {
+				step_played = false
+			}
+			
+			sprite_index = sMainDownGun
+
+			// Смотрим назад
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
+			// проигрываем звук ходьбы
+			if (int64(image_index) == 0 or int64(image_index) == 2) 
+			and !step_played {
+				audio_play_sound(sndStep, 1, false)
+				step_played = true
+			} else if int64(image_index) != 0 and int64(image_index) != 2 {
+				step_played = false
+			}
+			
+			sprite_index = sMainUpGun
+
+			// Смотрим вбок
+		} else {
+			// проигрываем звук ходьбы
+			if (int64(image_index) == 3 or int64(image_index) == 8) 
+			and !step_played {
+				audio_play_sound(sndStep, 1, false)
+				step_played = true
+			} else if int64(image_index) != 3 and int64(image_index) != 8 {
+				step_played = false
+			}
+			
+			sprite_index=sMainMoveGun
+		}
+	
+		// Остановка / Стоим на месте
+	} else if _x_spd == 0 && _y_spd == 0 {
+		// Смотрим вперед
+		if (sprite_index == sMainMove || sprite_index == sMainStop) and need_to_stop {
+			sprite_index = sMainStop
+		
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy > 0 {
+			sprite_index = sMainFrontIdle
+			
+			// Смотрим назад
+		} else if mouse_x-x > -25 and mouse_x-x < 25 and _imy < 0 {
+			sprite_index = sMainUpIdle
+		
+			// Смотрим вбок
+		} else {
+			sprite_index=sMainIdleGun
+		}
+	} 
+	
+	if _imx == 0 _imx = 1
+	image_xscale = _imx
+	rotate = _imx 
+
+	mouse = point_direction(x, y-6, mouse_x, mouse_y)
+#endregion
+}
+
 }

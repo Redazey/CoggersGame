@@ -1,3 +1,7 @@
-if sprite_index == spr_main_stop {
-	sprite_index = spr_main_idle
+if sprite_index == sMainStop {
+	sprite_index = sMainIdle
+	need_to_stop = false
+} 
+if sprite_index == sMainMove {
+	need_to_stop = true
 }

@@ -1,25 +1,33 @@
 draw_self()
 
-draw_sprite_ext(spr_weapon_, 1, x, y+8, 1, rotate, mouse,c_white, 1)
+if holding_gun {
+draw_sprite_ext(sMainGun, 0, x-3*sign(rotate), y-3, 1, rotate, mouse, c_white, 1)
 
 if global.t != 0 {
-if mouse_check_button_pressed(mb_left) && reload <= 0
+if mouse_check_button_pressed(mb_left) and reload <= 0 and bullets > 0
 {
-	repeat(6)
+	repeat(1)
 	{
+		audio_play_sound(sndGun, 1, false)
 		
-		with( instance_create_depth(x + lengthdir_x(-25,mouse), y+8+ lengthdir_y(-25,mouse), 9, obj_bullet))
+		with(instance_create_depth(
+			x + lengthdir_x(50, mouse),
+			y + lengthdir_y(50, mouse), 
+			9, 
+			obj_bullet)
+		)
 		{
-			direction = other.mouse+random_range(-60, 60)
+			direction = other.mouse
 			image_angle = direction
-			speed = 50 -random_range(-30, 30)
+			speed = 25
 		}
 	}
 	
-	reload = 10
+	bullets -= 1
+	reload = 5
 }
 
 reload--
 }
-
+}
  

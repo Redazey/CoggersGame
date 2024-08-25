@@ -45,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_main_idle",
-    "path":"sprites/spr_main_idle/spr_main_idle.yy",
+    "name":"sMainIdle",
+    "path":"sprites/sMainIdle/sMainIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
