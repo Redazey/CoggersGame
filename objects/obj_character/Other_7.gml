@@ -1,7 +1,6 @@
-if sprite_index == sMainStop {
-	sprite_index = sMainIdle
-	need_to_stop = false
-} 
-if sprite_index == sMainMove {
-	need_to_stop = true
-}
+/// @description Insert description here
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+
