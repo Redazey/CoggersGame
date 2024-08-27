@@ -1,10 +1,8 @@
 if place_meeting(x, y, obj_entity) and closed {
-	dir = sign(obj_entity.x - x)
-	dir *= sign(obj_entity.y - y)
-
+	dir = phy_formula
     force = force_multi * dir
 }
-if (place_meeting(x, y, obj_controller.col_tilemap)) {
+if image_angle <= -90 or image_angle >= 90 {
     force = 0
 	closed = false
 }

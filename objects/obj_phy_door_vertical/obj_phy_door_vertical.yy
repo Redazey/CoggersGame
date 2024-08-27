@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door2",
+  "%Name":"obj_phy_door_vertical",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_door2",
+  "name":"obj_phy_door_vertical",
   "overriddenProperties":[],
   "parent":{
     "name":"walls",
     "path":"folders/Objects/walls.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_door_phy",
+    "path":"objects/obj_door_phy/obj_door_phy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite35",
-    "path":"sprites/Sprite35/Sprite35.yy",
+    "name":"spr_door_phy_vertical",
+    "path":"sprites/spr_door_phy_vertical/spr_door_phy_vertical.yy",
   },
   "spriteMaskId":null,
   "visible":true,
