@@ -46,5 +46,12 @@ current_set = {
 
 // Стрельба
 holding_gun = true
+current_gun = noone
 reload = 0
-bullets = 6 //"10" колличество пуль
+reload_speed = 5
+bullet_speed = 15
+
+// Перезарядка
+reloading = false
+bullets = [sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce]
+unlocked_bullets = [sBullet_Choice, sBullet_Bounce_Choice]

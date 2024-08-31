@@ -1,0 +1,1 @@
+global.c_time = current_time

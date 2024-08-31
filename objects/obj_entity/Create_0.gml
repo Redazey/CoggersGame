@@ -1,5 +1,5 @@
 // Управление и скорость
-const_speed = 4
+const_speed = scr_fps_speed(4)
 need_to_stop = false
 step_played = false
 

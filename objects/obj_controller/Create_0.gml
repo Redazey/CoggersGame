@@ -1,6 +1,7 @@
 // если 0 - время идет, если 1 - время остановлено
 global.pause = 0
 global.t = 1
+global.c_time = current_time
 
 global.layers = []
 buttons = [obj_btn_resume, obj_btn_settings, obj_btn_back_main]
@@ -15,8 +16,15 @@ global.cam_follow = obj_character
 x_to = x
 y_to = y
 
+// GUI
+global.gui_scale = global.scale + 5
+
 // неигровые комнаты
 global.non_game_rooms = [rm_loading, rm_menu, rm_settings]
 
 // блоки колизии
-col_tilemap = noone
+global.col_tilemap = noone
+
+// партиклы
+global.part_sys = part_system_create()
+part_system_depth(global.part_sys, 1)

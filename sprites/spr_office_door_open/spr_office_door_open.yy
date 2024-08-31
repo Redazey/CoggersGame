@@ -26,7 +26,7 @@
   ],
   "name":"spr_office_door_open",
   "nineSlice":null,
-  "origin":7,
+  "origin":1,
   "parent":{
     "name":"office",
     "path":"folders/Sprites/walls/office.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":48,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

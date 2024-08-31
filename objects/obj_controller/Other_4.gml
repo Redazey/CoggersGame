@@ -2,7 +2,7 @@
 view_enabled = true
 view_visible[0] = true
 
-if !array_contains(global.non_game_rooms, room) {
+if !array_contains(global.non_game_rooms, global.last_room) or global.last_room == rm_menu {
 if (instance_exists(obj_data_carrier)) {
 	// сюда добавляем дату, которую мы хотим перенести в некст руму
 	var _enterance = obj_data_carrier.enterance
@@ -18,5 +18,5 @@ if (instance_exists(obj_data_carrier)) {
 }
 
 // обновляем карту колизии 
-col_tilemap = layer_tilemap_get_id("collision_tiles")
+global.col_tilemap = layer_tilemap_get_id("collision_tiles")
 }
