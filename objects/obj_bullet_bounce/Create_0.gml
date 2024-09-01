@@ -5,6 +5,13 @@
 
 event_inherited();
 bounce_counter = 0
-collided = false
-const_speed = 0
+collide_func = function() {
+	var _dif = angle_difference(360, direction)
+	
+	if collided_wall_dir == "horizontal" {
+		direction = _dif
+	} else direction = _dif - 180
+	// прибавляем отскок
+	bounce_counter++
+}
 

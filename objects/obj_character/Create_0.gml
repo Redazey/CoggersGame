@@ -54,4 +54,4 @@ bullet_speed = 15
 // Перезарядка
 reloading = false
 bullets = [sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce]
-unlocked_bullets = [sBullet_Choice, sBullet_Bounce_Choice]
+unlocked_bullets = [obj_recoil_bullet, obj_recoil_bullet_bounce]

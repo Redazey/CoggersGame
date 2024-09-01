@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_parent",
+  "%Name":"obj_recoil_bullet_bounce",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_parent",
+  "name":"obj_recoil_bullet_bounce",
   "overriddenProperties":[],
   "parent":{
-    "name":"weapon",
-    "path":"folders/Objects/weapon.yy",
+    "name":"recoil",
+    "path":"folders/Objects/recoil.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_recoil_bullet_parent",
+    "path":"objects/obj_recoil_bullet_parent/obj_recoil_bullet_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sBullet_Bounce_Choice",
+    "path":"sprites/sBullet_Bounce_Choice/sBullet_Bounce_Choice.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,4 +1,4 @@
-if reloading {
+if reloading and global.t != 0 {
 // координаты пуль в барабане
 var _bullets_cords = [
 	[16, 4],
@@ -35,12 +35,11 @@ for (var _i=0; _i < array_length(bullets); _i++) {
 
 // рисуем пули для интерфейса
 for (var _i=0; _i < array_length(unlocked_bullets); _i++) {
-	draw_sprite_ext(
-		unlocked_bullets[_i], 0, 
-		_baraban_x, 
-		_baraban_y - ((10 * (_i + 1)) * global.gui_scale), 
-		global.gui_scale, global.gui_scale, 1, 
-		c_white, 1
+	instance_create_layer(
+		global.cam_width,
+		global.cam_height - ((10 * (_i + 1)) * global.gui_scale),
+		"gui_instances",
+		unlocked_bullets[_i]
 	)
 }
 }

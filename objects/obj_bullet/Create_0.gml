@@ -3,4 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
+collide_func = function() {
+	
+	instance_destroy()
+}
 

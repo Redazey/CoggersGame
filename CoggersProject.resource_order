@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"camera","order":9,"path":"folders/Objects/camera.yy",},
     {"name":"entity","order":6,"path":"folders/Objects/entity.yy",},
+    {"name":"recoil","order":12,"path":"folders/Objects/recoil.yy",},
     {"name":"screens","order":8,"path":"folders/Objects/screens.yy",},
     {"name":"mainMenu","order":1,"path":"folders/Objects/screens/mainMenu.yy",},
     {"name":"pauseMenu","order":2,"path":"folders/Objects/screens/pauseMenu.yy",},
@@ -46,6 +47,8 @@
     {"name":"obj_office_door","order":2,"path":"objects/obj_office_door/obj_office_door.yy",},
     {"name":"obj_phy_door_horizontal","order":6,"path":"objects/obj_phy_door_horizontal/obj_phy_door_horizontal.yy",},
     {"name":"obj_phy_door_vertical","order":4,"path":"objects/obj_phy_door_vertical/obj_phy_door_vertical.yy",},
+    {"name":"obj_recoil_bullet_bounce","order":1,"path":"objects/obj_recoil_bullet_bounce/obj_recoil_bullet_bounce.yy",},
+    {"name":"obj_recoil_bullet","order":2,"path":"objects/obj_recoil_bullet/obj_recoil_bullet.yy",},
     {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},

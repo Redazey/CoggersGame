@@ -30,8 +30,7 @@ var _current_speed = const_speed * global.t
 	}
 
 	// Двигаемся
-	var _movement_input = (_x_spd != 0) or (_y_spd != 0)
-	if _movement_input {
+	if (_x_spd != 0) or (_y_spd != 0) {
 		scr_move(_x_spd, _y_spd, _current_speed)
 	}
 #endregion

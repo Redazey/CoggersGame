@@ -15,6 +15,7 @@
   ],
   "isDnd":false,
   "layers":[
+    {"$GMRInstanceLayer":"","%Name":"gui_instances","depth":-10300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"gui_instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"lightning_tiles","depth":-10200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"lightning_tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":63,"SerialiseWidth":63,"TileCompressedData":[
           -79,-2147483648,-10,1,1,-2147483648,-9,1,1,0,-41,-2147483648,1,1,-10,-2147483648,1,1,-9,-2147483648,
           1,1,-41,-2147483648,1,1,-10,-2147483648,1,1,-9,-2147483648,1,1,-41,-2147483648,1,1,-10,-2147483648,1,
@@ -46,7 +47,7 @@
           -2147483648,-10,0,-2,-2147483648,4,3,-2147483648,-2147483648,0,-38,-2147483648,2,3,-2147483648,-19,0,
           1,3,-3,0,-38,-2147483648,1,3,-20,0,1,3,-41,-2147483648,4,3,-2147483648,0,0,-7,-2147483648,1,0,-9,-2147483648,
           1,3,-41,-2147483648,-22,3,-2483,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_functional_tiles","path":"tilesets/ts_functional_tiles/ts_functional_tiles.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_functional_tiles","path":"tilesets/ts_functional_tiles/ts_functional_tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"walls_front","depth":-10000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"walls_front","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":63,"SerialiseWidth":63,"TileCompressedData":[
           -10,-2147483648,-30,0,-33,-2147483648,-30,0,-33,-2147483648,-3,0,-2,26,1,5,-9,0,1,96,-10,0,5,17,26,26,
           0,0,-32,-2147483648,-3,0,-2,26,1,18,-9,0,1,58,-10,0,5,30,26,26,0,0,-32,-2147483648,-3,0,-2,26,1,31,-9,

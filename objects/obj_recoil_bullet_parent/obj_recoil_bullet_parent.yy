@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_parent",
+  "%Name":"obj_recoil_bullet_parent",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_parent",
+  "name":"obj_recoil_bullet_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"weapon",
-    "path":"folders/Objects/weapon.yy",
+    "name":"recoil",
+    "path":"folders/Objects/recoil.yy",
   },
   "parentObjectId":null,
   "persistent":false,
