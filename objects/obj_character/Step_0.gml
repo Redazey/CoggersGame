@@ -168,6 +168,5 @@ reload--
 #region Перезарядка
 	if keyboard_check_pressed(ord("R")) and !reloading reloading = true
 	else if keyboard_check_pressed(ord("R")) and reloading reloading = false
-
 #endregion
 }
