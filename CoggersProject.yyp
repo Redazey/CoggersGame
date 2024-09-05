@@ -19,7 +19,6 @@
     {"$GMFolder":"","%Name":"Included Files","folderPath":"folders/Included Files.yy","name":"Included Files","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"camera","folderPath":"folders/Objects/camera.yy","name":"camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"entity","folderPath":"folders/Objects/entity.yy","name":"entity","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"recoil","folderPath":"folders/Objects/recoil.yy","name":"recoil","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"screens","folderPath":"folders/Objects/screens.yy","name":"screens","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -66,7 +65,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"CoggersProject",
   "resources":[
@@ -118,6 +117,7 @@
     {"id":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
+    {"id":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
     {"id":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
     {"id":{"name":"scr_build","path":"scripts/scr_build/scr_build.yy",},},
     {"id":{"name":"scr_fps_speed","path":"scripts/scr_fps_speed/scr_fps_speed.yy",},},
@@ -177,6 +177,7 @@
     {"id":{"name":"spr_test_ridle","path":"sprites/spr_test_ridle/spr_test_ridle.yy",},},
     {"id":{"name":"spr_test_rmove","path":"sprites/spr_test_rmove/spr_test_rmove.yy",},},
     {"id":{"name":"spr_weapon_","path":"sprites/spr_weapon_/spr_weapon_.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"ts_functional_tiles","path":"tilesets/ts_functional_tiles/ts_functional_tiles.yy",},},
     {"id":{"name":"walls","path":"tilesets/walls/walls.yy",},},
   ],
@@ -188,6 +189,7 @@
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
+    {"roomId":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

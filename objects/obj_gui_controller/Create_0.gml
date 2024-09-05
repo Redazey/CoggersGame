@@ -11,5 +11,14 @@ bullets_cords = [
 	[8, 8]
 ]
 
+globalvar bullet_sprites;
+
+bullet_sprites = ds_map_create()
+
+ds_map_add(bullet_sprites, obj_recoil_bullet, sBullet)
+ds_map_add(bullet_sprites, obj_recoil_bullet_bounce, sBullet_bounce)
+
 // инстансы для подчистки при закрытии интерфейса
 instances = []
+
+destroy_cords = [noone, -1, -1]

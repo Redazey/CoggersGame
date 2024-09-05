@@ -53,4 +53,4 @@ bullet_speed = 15
 
 // Перезарядка
 reloading = false
-bullets = [sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce, sBullet_bounce]
+bullets = []

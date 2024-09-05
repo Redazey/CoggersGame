@@ -12,7 +12,8 @@ window_set_size(room_width, room_height)
 
 alarm[0] = 1
 
-if !array_contains(global.non_game_rooms, global.last_room) or global.last_room == rm_menu {
+if !array_contains(global.non_game_rooms, global.last_room) or
+	(global.last_room == rm_menu and !array_contains(global.non_game_rooms, room)) {
 if (instance_exists(obj_data_carrier)) {
 	// сюда добавляем дату, которую мы хотим перенести в некст руму
 	var _enterance = obj_data_carrier.enterance
