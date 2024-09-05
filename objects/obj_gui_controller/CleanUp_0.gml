@@ -1,0 +1,1 @@
+array_foreach(instances, instance_destroy)

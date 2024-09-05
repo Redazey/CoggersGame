@@ -1,9 +1,7 @@
-depth = -y
-
-var _walls = global.col_tilemap
-
 if collided {
-	collide_func()
+	depth = -y
+	
+	collision_func()
 	
 	// Спавним партиклы столкновения со стеной
 	var _particles_dir

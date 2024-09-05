@@ -1,5 +1,4 @@
 // двжиение камеры за целью камера
-
 if !array_contains(global.non_game_rooms, room) {
 if (global.cam_follow != noone) {
 	x_to = global.cam_follow.x

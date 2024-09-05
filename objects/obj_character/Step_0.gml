@@ -127,6 +127,13 @@ if holding_gun == noone {
 #region Стрельба
 if mouse_check_button_pressed(mb_left) and !reloading and holding_gun and reload <= 0 and array_length(bullets) > 0 {
 	var _cur_bullet = noone
+	
+	if array_first(bullets) == 0 {
+		// играем звук пустого барабана
+		array_delete(bullets, array_first(bullets), 1)
+		exit
+	}
+	
 	repeat(1)
 	{
 		current_gun.image_speed = 1
@@ -153,13 +160,9 @@ if mouse_check_button_pressed(mb_left) and !reloading and holding_gun and reload
 			speed = _bullet_speed
 		}
 	}
-	/*
-	for (var _i = 0; _i < array_length(bullets); _i++) {
-		if bullets[_i] == bullets[0] {
-			array_delete(bullets, _i, 1)
-			break
-		}
-	}*/
+	
+	array_delete(bullets, 0, 1)
+
 	reload = reload_speed
 }
 reload--
@@ -168,6 +171,5 @@ reload--
 #region Перезарядка
 	if keyboard_check_pressed(ord("R")) and !reloading reloading = true
 	else if keyboard_check_pressed(ord("R")) and reloading reloading = false
-
 #endregion
 }
