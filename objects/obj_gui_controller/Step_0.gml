@@ -5,8 +5,8 @@ if obj_character.reloading and global.t != 0 {
 		if instance_exists(instances[_i]) {
 			var _bullet = instances[_i]
 			if _bullet.holded {
-				_bullet.x = device_mouse_x_to_gui(0) - (sprite_get_width(_bullet.sprite_index) / 2) * global.gui_scale
-				_bullet.y = device_mouse_y_to_gui(0) - (sprite_get_height(_bullet.sprite_index) / 2) * global.gui_scale
+				_bullet.x = device_mouse_x_to_gui(0) - (sprite_get_width(_bullet.sprite_index) / 2) * scale
+				_bullet.y = device_mouse_y_to_gui(0) - (sprite_get_height(_bullet.sprite_index) / 2) * scale
 			} 
 		}
 	}
@@ -14,9 +14,9 @@ if obj_character.reloading and global.t != 0 {
 	if destroy_cords[0] != noone {
 		// заряжаем пулю в барабан
 		for (var _i=0; _i < array_length(bullets_cords); _i++) {
-			var _rad = (sprite_get_width(sBullet) / 2) * global.gui_scale
-			var _start_x = screen_width - h_align  - (sprite_get_width(sBaraban) - bullets_cords[_i][0]) * global.gui_scale
-			var _start_y = v_align + bullets_cords[_i][1] * global.gui_scale
+			var _rad = (sprite_get_width(sBullet) / 2) * scale
+			var _start_x = screen_width - h_align  - (sprite_get_width(sBaraban) - bullets_cords[_i][0]) * scale
+			var _start_y = v_align + bullets_cords[_i][1] * scale
 	
 			if (destroy_cords[1] > _start_x - _rad and destroy_cords[1] < _start_x + _rad) and
 			   (destroy_cords[2] > _start_y - _rad and destroy_cords[2] < _start_y + _rad) {

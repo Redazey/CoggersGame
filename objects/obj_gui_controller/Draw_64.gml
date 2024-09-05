@@ -14,13 +14,13 @@ if obj_character.reloading and global.t != 0 {
 	
 	#region рисуем барабан
 	
-	var _drum_x = screen_width - h_align - sprite_get_width(sBaraban) * global.gui_scale
+	var _drum_x = screen_width - h_align - sprite_get_width(sBaraban) * scale
 	
 	draw_sprite_ext(
 		sBaraban, 0, 
 		_drum_x, 
 		_drawing_point, 
-		global.gui_scale, global.gui_scale, 1, 
+		scale, scale, 1, 
 		c_white, 1
 	)
 
@@ -30,20 +30,20 @@ if obj_character.reloading and global.t != 0 {
 		if obj_character.bullets[_i] == 0 continue
 		draw_sprite_ext(
 			obj_character.bullets[_i], 0,
-			_drum_x + bullets_cords[_i][0] * global.gui_scale,
-			_drawing_point + bullets_cords[_i][1] * global.gui_scale,
-			global.gui_scale, global.gui_scale, 1,
+			_drum_x + bullets_cords[_i][0] * scale,
+			_drawing_point + bullets_cords[_i][1] * scale,
+			scale, scale, 1,
 			c_white, 1
 		)
 	}
 	
 	#endregion
 	
-	_drawing_point += v_align + sprite_get_height(sBaraban) * global.gui_scale
+	_drawing_point += v_align + sprite_get_height(sBaraban) * scale
 	
 	#region рисуем пули
 	
-	var _bullets_x = screen_width - h_align - 24 * global.gui_scale
+	var _bullets_x = screen_width - h_align - 24 * scale
 	
 	for (var _i=0; _i < array_length(unlocked_bullets); _i++) {
 		if !instance_exists(unlocked_bullets[_i]) {
@@ -54,7 +54,7 @@ if obj_character.reloading and global.t != 0 {
 				unlocked_bullets[_i]
 			)
 
-			_drawing_point += v_align + sprite_get_height(sBullet_Choice) * global.gui_scale
+			_drawing_point += v_align + sprite_get_height(sBullet_Choice) * scale
 		}
 	}
 	

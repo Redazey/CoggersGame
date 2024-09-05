@@ -1,4 +1,4 @@
-image_xscale = global.gui_scale
-image_yscale = global.gui_scale
+image_xscale = scale
+image_yscale = scale
 
 holded = false
