@@ -2,7 +2,15 @@ if instance_exists(obj_character) {
 if obj_character.reloading and global.t != 0 {
 	// рисуем снизу вверх, это точка на которой мы рисуем сейчас
 	// после каждого отрисованного спрайта мы прибавляем к ней v_align + высоту спрайта * gui_scale
-	var _drawing_point = v_align
+	var _drawing_point = 0
+	
+	#region Рисуем задний фон
+	
+	
+	
+	#endregion
+	
+	_drawing_point += v_align
 	
 	#region рисуем барабан
 	
