@@ -1,1 +1,0 @@
-surface_resize(application_surface, ideal_width, ideal_height)

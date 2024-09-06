@@ -16,12 +16,12 @@ elems = [
 
 var _y_align = 40
 var _menu_height = (array_length(elems) * (_y_align) + array_length(elems) * (_y_align)) / 2
-var _start_y = screen_height / 2 - _menu_height
+var _start_y = camera_height / 2 - _menu_height
 
 // рисуем элементы интерфейса
 for (var _i = 0; _i < array_length(buttons); _i++) {
 	instance_create_layer(
-		screen_width / 3,
+		camera_width / 3,
 		_start_y + _y_align + (_y_align * 2) * _i,
 		"Instances", 
 		buttons[_i]
@@ -31,8 +31,7 @@ for (var _i = 0; _i < array_length(buttons); _i++) {
 // рисуем текст
 for (var _i = 0; _i < array_length(elems); _i++) {
 	instance_create_layer(
-		screen_width / 3,
-		
+		camera_width / 3,
 		_start_y + (_y_align * 2) * _i,
 		"Instances", 
 		elems[_i]
@@ -40,8 +39,8 @@ for (var _i = 0; _i < array_length(elems); _i++) {
 }
 
 instance_create_layer(
-	screen_width / 20,
-	screen_height / 20,
+	camera_width / 20,
+	camera_height / 20,
 	"Instances", 
 	obj_btn_back_menu
 )

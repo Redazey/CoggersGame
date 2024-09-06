@@ -15,7 +15,7 @@ if obj_character.reloading and global.t != 0 {
 		// заряжаем пулю в барабан
 		for (var _i=0; _i < array_length(bullets_cords); _i++) {
 			var _rad = (sprite_get_width(sBullet) / 2) * scale
-			var _start_x = screen_width - h_align  - (sprite_get_width(sBaraban) - bullets_cords[_i][0]) * scale
+			var _start_x = camera_width - h_align  - (sprite_get_width(sBaraban) - bullets_cords[_i][0]) * scale
 			var _start_y = v_align + bullets_cords[_i][1] * scale
 	
 			if (destroy_cords[1] > _start_x - _rad and destroy_cords[1] < _start_x + _rad) and
