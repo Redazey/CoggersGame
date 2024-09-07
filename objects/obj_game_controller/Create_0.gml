@@ -19,3 +19,7 @@ part_system_depth(global.part_sys, 1)
 // все переменные, которые нужно будет сохранять перед выходом из игры
 globalvar unlocked_bullets;
 unlocked_bullets = [obj_recoil_bullet, obj_recoil_bullet_bounce]
+
+// интерфейс
+globalvar menu_valign;
+menu_valign = 30

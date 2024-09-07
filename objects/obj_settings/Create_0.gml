@@ -14,15 +14,14 @@ elems = [
 	obj_txt_snd_interface
 ]
 
-var _y_align = 40
-var _menu_height = (array_length(elems) * (_y_align) + array_length(elems) * (_y_align)) / 2
+var _menu_height = (array_length(elems) * (menu_valign) + array_length(elems) * (menu_valign)) / 2
 var _start_y = camera_height / 2 - _menu_height
 
 // рисуем элементы интерфейса
 for (var _i = 0; _i < array_length(buttons); _i++) {
 	instance_create_layer(
 		camera_width / 3,
-		_start_y + _y_align + (_y_align * 2) * _i,
+		_start_y + menu_valign + (menu_valign * 2) * _i,
 		"Instances", 
 		buttons[_i]
 	)
@@ -32,7 +31,7 @@ for (var _i = 0; _i < array_length(buttons); _i++) {
 for (var _i = 0; _i < array_length(elems); _i++) {
 	instance_create_layer(
 		camera_width / 3,
-		_start_y + (_y_align * 2) * _i,
+		_start_y + (menu_valign * 2) * _i,
 		"Instances", 
 		elems[_i]
 	)

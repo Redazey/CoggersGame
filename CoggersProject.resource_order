@@ -64,6 +64,7 @@
     {"name":"scr_unpause","order":3,"path":"scripts/scr_unpause/scr_unpause.yy",},
     {"name":"sndGun","order":1,"path":"sounds/sndGun/sndGun.yy",},
     {"name":"sndPickUp","order":2,"path":"sounds/sndPickUp/sndPickUp.yy",},
+    {"name":"sBG_recoil","order":5,"path":"sprites/sBG_recoil/sBG_recoil.yy",},
     {"name":"sBullet_Bounce_Choice","order":3,"path":"sprites/sBullet_Bounce_Choice/sBullet_Bounce_Choice.yy",},
     {"name":"sBullet_bounce","order":2,"path":"sprites/sBullet_bounce/sBullet_bounce.yy",},
     {"name":"sBullet_Choice","order":4,"path":"sprites/sBullet_Choice/sBullet_Choice.yy",},

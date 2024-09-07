@@ -1,25 +1,27 @@
 if instance_exists(obj_character) {
-if obj_character.reloading and global.t != 0 {
+if current_x != camera_width and global.t != 0 {
 	// рисуем снизу вверх, это точка на которой мы рисуем сейчас
 	// после каждого отрисованного спрайта мы прибавляем к ней v_align + высоту спрайта * gui_scale
-	var _drawing_point = 0
+	var _drawing_y = 0
+	var _drawing_x = current_x
+	#macro ui_border 7
 	
 	#region Рисуем задний фон
 	
-	
+	draw_sprite(sBG_recoil, 0, _drawing_x, _drawing_y)
 	
 	#endregion
 	
-	_drawing_point += v_align
+	_drawing_y += v_align + ui_border
 	
 	#region рисуем барабан
 	
-	var _drum_x = camera_width - h_align - sprite_get_width(sBaraban) * scale
+	_drawing_x += ui_border + h_align
 	
 	draw_sprite_ext(
-		sBaraban, 0, 
-		_drum_x, 
-		_drawing_point, 
+		sCylinder, 0, 
+		_drawing_x, 
+		_drawing_y, 
 		scale, scale, 0, 
 		c_white, 1
 	)
@@ -30,8 +32,8 @@ if obj_character.reloading and global.t != 0 {
 		if obj_character.bullets[_i] == 0 continue
 		draw_sprite_ext(
 			obj_character.bullets[_i], 0,
-			_drum_x + bullets_cords[_i][0] * scale,
-			_drawing_point + bullets_cords[_i][1] * scale,
+			_drawing_x + bullets_cords[_i][0] * scale,
+			_drawing_y + bullets_cords[_i][1] * scale,
 			scale, scale, 0,
 			c_white, 1
 		)
@@ -39,23 +41,25 @@ if obj_character.reloading and global.t != 0 {
 	
 	#endregion
 	
-	_drawing_point += v_align + sprite_get_height(sBaraban) * scale
+	_drawing_y += v_align + sprite_get_height(sCylinder) * scale
 	
 	#region рисуем пули
 	
-	var _bullets_x = camera_width - h_align - 24 * scale
+	_drawing_x += (sprite_get_width(sBullet_Choice) / 2) * scale
 	
 	for (var _i=0; _i < array_length(unlocked_bullets); _i++) {
 		if !instance_exists(unlocked_bullets[_i]) {
 			instances[_i] = instance_create_layer(
-				_bullets_x,
-				_drawing_point,
+				_drawing_x,
+				_drawing_y,
 				"gui_instances",
 				unlocked_bullets[_i]
 			)
-
-			_drawing_point += v_align + sprite_get_height(sBullet_Choice) * scale
+		} else if !instances[_i].holded {
+			instances[_i].x = _drawing_x
+			instances[_i].y = _drawing_y	
 		}
+		_drawing_y += v_align + sprite_get_height(sBullet_Choice) * scale
 	}
 	
 	#endregion
