@@ -39,6 +39,14 @@ if current_x != camera_width and global.t != 0 {
 		)
 	}
 	
+	// закоменченный кусок кода, что бы отрисовать хитбоксы дырок для патрон (дэбаг)
+	//for (var _i=0; _i < array_length(bullets_cords); _i++) {
+	//	var _rad = (sprite_get_width(sBullet) / 2) * scale
+	//	var _start_x = camera_width - h_align - (sprite_get_width(sCylinder) - bullets_cords[_i][0]) * scale
+	//	var _start_y = v_align + ui_border + bullets_cords[_i][1] * scale
+	//	draw_circle_color(_start_x, _start_y, _rad, c_red, c_blue, true)
+	//}
+	
 	#endregion
 	
 	_drawing_y += v_align + sprite_get_height(sCylinder) * scale
