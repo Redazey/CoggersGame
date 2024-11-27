@@ -44,6 +44,7 @@
     {"name":"obj_gui_controller","order":1,"path":"objects/obj_gui_controller/obj_gui_controller.yy",},
     {"name":"obj_gun_main","order":3,"path":"objects/obj_gun_main/obj_gun_main.yy",},
     {"name":"obj_gun_parent","order":4,"path":"objects/obj_gun_parent/obj_gun_parent.yy",},
+    {"name":"obj_light_controller","order":3,"path":"objects/obj_light_controller/obj_light_controller.yy",},
     {"name":"obj_office_door","order":2,"path":"objects/obj_office_door/obj_office_door.yy",},
     {"name":"obj_phy_door_horizontal","order":5,"path":"objects/obj_phy_door_horizontal/obj_phy_door_horizontal.yy",},
     {"name":"obj_phy_door_vertical","order":3,"path":"objects/obj_phy_door_vertical/obj_phy_door_vertical.yy",},

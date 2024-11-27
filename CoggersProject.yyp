@@ -66,7 +66,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"CoggersProject",
   "resources":[
@@ -101,6 +101,7 @@
     {"id":{"name":"obj_gui_controller","path":"objects/obj_gui_controller/obj_gui_controller.yy",},},
     {"id":{"name":"obj_gun_main","path":"objects/obj_gun_main/obj_gun_main.yy",},},
     {"id":{"name":"obj_gun_parent","path":"objects/obj_gun_parent/obj_gun_parent.yy",},},
+    {"id":{"name":"obj_light_controller","path":"objects/obj_light_controller/obj_light_controller.yy",},},
     {"id":{"name":"obj_loading","path":"objects/obj_loading/obj_loading.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_office_door","path":"objects/obj_office_door/obj_office_door.yy",},},
